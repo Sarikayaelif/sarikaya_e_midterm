@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+body {	
+	font-family: open sans, Arial, sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #ccc;
+}
+
+h1,h2,h3,h4{
+	text-align: center;
+}
+
+.hidden{ display: none; }
+
+#siteContainer{
+	margin: 0 auto;
+	width: 1080px;
+	background-color: white;
+}
+
+#mainHeader{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 1080px;
+	height: 120px;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+#logoCon{
+	padding-top: 35px;
+	padding-left: 30px;
+}
+
+#navCon{
+	width: 100%; 
+	padding-right: 30px;
+}
+
+#navCon ul {
+	list-style-type: none; 
+	padding: 0;
+	margin:0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#navCon ul li {
+	float: left;
+	width: 20%; 
+	position: relative;
+	text-align: center;;
+ }
+
+#navCon ul li a {
+	padding: 10px 0;
+	color: #222c8c;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none; 
+	display: block;
+	width: 100%;
+	text-align: center;
+ }
+
+#navCon ul li a:hover{ color: #dba868;}
+
+#navCon ul li:after{
+	content: ''; 
+	width: 1px;
+	height: 100%;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#navCon ul li:last-child:after{ display: none;}
+
+#bannerCon{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
+	background-image: url('../images/beer-dispenser.jpg');
+	background-repeat:  no-repeat; 
+	background-position: right center;
+	background-size: 100% auto;
+	position: relative; 
+	display: flex;
+	align-items: center;
+}
+
+#bannerCon p{
+	position: absolute; 
+	font-size: 24px;
+	left: 450px;
+	top: 300px;
+	height: auto;
+	font-family: 'Monoton', cursive;
+}
+
+#promoCon{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.promos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 40px 150px;
+}
+
+.promos img{ margin-right: 80px;}
+
+.promos p,h3,a{
+	color: #bcbcc1;
+	line-height: 1.2em;
+}
+
+#socialCon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 30px;
+	height: 150px;
+	background-color: #bcbcc1;
+	align-items: center;
+}
+
+#smalLogo{ padding-left: 30px;}
+
+#social{
+	display: flex;
+	flex-direction: column;
+}
+
+#social a{
+	font-size: 24px;
+	font-family: 'Monoton', cursive;;
+	text-decoration:none;
+	color: white;
+}
+
+#subscribe h2{color: white;}
+
+#email,input{
+	border-style: none; 
+	border-left-width: 2px;
+	border-left-color: grey;
+	border-left-style: solid;
+	border-bottom: 2px grey solid;
+	background-color: #bcbcc1;
+}
+
+#footerCon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 10px;
+	height: 50px;
+	background-color:#222c8c;
+}
+
+#footerCon a{ color: white;}
+
+/*Contact us Page*/
+
+#bannerContact{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
+	background-image: url('../images/shot-glasses-on-tabletop.jpg'); 
+	background-repeat:  no-repeat;  
+	background-position: right center;
+	background-size: 100% auto; 
+	position: relative;  
+	display: flex;
+	align-items: center;
+}
+
+#bannerContact p{
+	position: absolute;  
+	font-size: 24px;
+	left: 500px;
+	top: 300px;
+	height: auto;
+	font-family: 'Monoton', cursive;}
+
+#contInfo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#location{
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.imgCon{ padding-bottom: 30px;}
+
+#formCon{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 80px;}
+
+section input {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: block;
+    margin-bottom: 30px;
+}
+
+section input:focus {
+	outline: 0;
+	border:2px dashed grey; 
+}
+
+#message{
+	padding-bottom: 80px;
+}
