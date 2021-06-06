@@ -1,9 +1,9 @@
 
-#Project Name:
+# Project Name:
 Final Integrated Project Midterm
 
 ## Project Description:
-This is a 2 of 5 pages website in HTML, using CSS for final integrated project midterm of Interactive Media Design Program, Fanshawe College. 
+This is a 2 of 5 pages website in HTML, using CSS assignment for final integrated project midterm of Interactive Media Design Program, Fanshawe College. 
 
 ## What is inside in this project?
 Two brands is mashed up and new brand is created. A logo, emblem, label are created with Adobe Illustrator and  bottle is created with Cinema 4D to use in the 5 page website. 
